@@ -1,0 +1,168 @@
+/*	Laura Zukoski 
+	Project 3 - Google Maps Web Service
+	Web and Distributed Programming
+	Fall 2015*/
+
+/*
+	Defines height and width for page, places background image.
+*/	
+html, body {
+	height: 100%;
+	width: 100%;
+	background-image: url("bg.jpg");
+}
+
+/*
+	styling for google map api
+*/	
+#googleMap {
+	width:900px;
+	height:550px;
+	margin: auto;
+	float: left;
+	background-color: #7ec0ee;
+}
+
+/*
+	adds font, gradient, border and background to game title
+	webkit is used to add the gradient to the font
+*/	
+h2 {
+	font-family: 'Righteous', cursive;
+	font-size: 40px;
+	color: #ffef99;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,239,153,1)), color-stop(50%, rgba(250,250,250,.5)), to(rgba(211,211,211,1)));
+	text-shadow: 1.5px 1.5px #fafafa;
+	background-color: #000000;
+	padding: 10px;
+	border-style:outset;
+	border-color: #ffef99;
+	text-align: center;
+}
+
+/*
+	Removes bullet points
+*/	
+ul {
+	list-style-type: none;
+}
+
+/*
+	stylizes hr tag for double line look
+*/	
+hr {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+	border-color: #ffef99;
+}
+
+/*
+	stylizes the header section with font, and spacing and border and colors
+*/	
+#header {
+	width:30%;
+	height: 10%;
+	text-align: center;
+	float: left;
+	color: #ffef99;
+	background-color: #191500;
+	font-family: 'Bitter', serif;
+	border-style: outset;
+	border-color: #ffef99;
+}
+/*
+	stylizes the hints and score display
+*/	
+#display {
+	width: 100%;
+	background-color: #191500;
+	border-style: outset;
+	border-color: #ffef99;
+	margin-top: 40px;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#curScore {
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+/*
+	adds text shadow to name
+*/
+#name {
+	font-size: 20px;
+	border-style: solid;
+	border: 10px;
+	text-shadow: 2px 2px #191919;
+}
+
+/*
+	adds text-shadow to titles
+*/
+#info {
+	font-size: 15px;
+	text-shadow: 1.5px 1.5px #191919;
+}
+/*
+	styling for spacing
+*/
+#game {
+	width:68%;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+/*
+	styling for spacing, and borders
+*/
+#score {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	float: left;
+	background-color: #191500;
+	border-style: outset;
+	border-color: #ffef99;
+	height: 30%;
+	margin-top: 10px;
+	font-family: 'Righteous', cursive;
+}
+/*
+	styling for spacing and borders
+*/
+#hint {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	width: 100%;
+	float: left;
+	background-color: #191500;
+	border-style: outset;
+	border-color: #ffef99;
+	height: 25%;
+	font-weight: 450px;
+	font-family: 'Righteous', cursive;
+}
+/*
+	styling for spacing, and borders
+*/
+#hints {
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+/*
+	styling for spacing, and borders
+*/
+#map {
+	width: 70%;
+	height:100%;
+	margin: auto;
+	border-style: solid;
+	border: 10px;
+}

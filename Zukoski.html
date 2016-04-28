@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- Laura Zukoski 
+	 Project 3 - Google Maps Web Service
+	 Web and Distributed Programming
+	 Fall 2015--> 
+
+<html lang="en">
+	<head> 
+	<meta charset = "utf-8" />
+		<!-- Add google fonts to use for styling and google map key--> 
+		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="Zukoski.css">
+		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBpeGVM8-125z4M3D4FhX91FMBaIjgJ00" type="text/javascript"></script>
+		<title>Solving History</title>
+		<script type="text/javaScript" src="Zukoski.js"></script>
+	</head>
+	<!-- initializes JavaScript on body onload --> 
+	<body onload="init()">
+		
+		<!-- Displays Title and Google Map --> 
+		<div id="game">
+			<div id="map">
+				<h2>Mapping Through Time!</h2>
+				<hr />
+				<div id="googleMap"></div>
+			</div>
+		</div>
+		<!-- Displays left side of page (header, info and hints and score) --> 
+		<div id="header">
+			<p><span id="name">Laura Zukoski</span><br />
+			<span id="info">Project 3 | Web Applications & Distributed Programming | Fall 2015</span></p>
+			<hr />
+			<div id="display">
+				<ul>
+					<li id ="hint">Hint:<br />
+						<ul>
+							<li id ="hints"></li>
+						</ul>
+					</li>
+					<li id="score">Score: <br />
+						<ul>
+							<li id="curScore"></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+
